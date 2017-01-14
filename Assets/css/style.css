@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(Assets/Images/shattered.png);
+	background-color: lightgrey
+}
+
+header {
+	margin: 0;
+	background-color: white;
+}
+
+h1 {
+	background-color: #4aaaa5
+	color: white;
+	font-family: "Georgia," Times, "Times New Roman," serif
+}
+
+.container {
+	margin: 0 auto;
+	width: 1024px;
+}
+#sec-main,
+#sec-contact,
+#bio-image    { float: left; }
+#sec-main     { width: 70%; }
+#sec-contact { width: 30%; }
+#bio-image {
+	margin-right: 20px;
+	width: 200px;
+	height: 200px;
+}

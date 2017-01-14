@@ -3,33 +3,48 @@
 
 <head>
 <title>About</title>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 <!-- Heading with Links, same all pages -->
-	<h1>Erin Glabe</h1>
-		<p>
-				<a href="index.html">About</a>
-				 | <a href="portfolio.html">Portfolio</a> 
-				 | <a href="contact.html">Contact</a>
-		</p>
-
+	<header>Erin Glabe</header>
+	<nav>
+		<a href="index.html">About</a> | 
+		<a href="portfolio.html">Portfolio</a> | 
+		<a href="contact.html">Contact</a>
+	</nav>
 	<hr>
 
 <!-- Main Section with info specific to that page -->
-	<h1>About Me/Portfolio/Contact</h1>
-	<hr>
+	<div id="container">
+		<section id="sec-main">
+			<h1>About Me/Portfolio/Contact</h1>
+			<img id="bio-image" src="assets/images/me.jpg">
+			<p> text about me. words words words words words.</p>
+			<hr>
+		</section>
 
-<!-- Small box with image links to my sites, same all pages -->
-	<h2>Connect with Me</h2>
-	<hr>
-	<a href="www.https://github.com/eglabe" target="_blank"><img src="Assets/Images/github.svg"></a>
-	<img src="Assets/Images/linkedin.svg">
-	<img src="Assets/Images/overflow.svg">
-
+	<!-- Small box with image links to my sites, same all pages -->
+		<aside id="sec-contact">
+			<h2>Connect with Me</h2>
+			<hr>
+		<!-- Double check GitHub link -->
+			<a href="www.https://github.com/eglabe" target="_blank">
+				<img src="Assets/Images/github.png" alt="github" height="70px" width="70px">
+			</a>
+			<a href="https://www.linkedin.com/in/erin-glabe-04593a57" target="_blank">
+				<img src="Assets/Images/linkedin.png" alt="linkedin" height="70px" width="70px">
+			</a>
+			<a href="http://stackoverflow.com/users/7382613/erin" target="_blank">
+				<img src="Assets/Images/stackoverflow.png" alt="stackoverflow" height="70px" width="70px">
+			</a>
+		</aside>
+	</div>	
 <!-- Footer, same all pages -->
-<!-- c Copyright 2017 Erin Glabe -->
-	
+	<footer>
+		<p>© Copyright 2017 Erin Glabe</p>
+	</footer>
 </body>
 
 </html>
