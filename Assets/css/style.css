@@ -1,4 +1,42 @@
 body {
+	background-color: Assets/Images/shattered.png;
+	background-color: purple;
+	margin: 0;
+	padding: 0;
+
+}
+
+header {
+	background-color: #ffffff;
+	font-family: "Georgia", Times, "Times New Roman", serif;
+	border-bottom: 2px solid #cccccc;
+}
+
+#name {
+	background-color: #4aaaa5;
+	width: 150px;
+	text-align: center;
+	padding: 25px;
+	color:#ffffff;
+	font-size: 25px;
+}
+
+nav { 
+}
+
+section, aside {
+	background-color: white;
+	border: 1px solid #cccccc;
+}
+
+footer {
+	background-color: #666666;
+	padding: 40px;
+	border-top: 8px solid #4aaaa5;
+}
+
+
+/*body {
 	margin: 0;
 	padding: 0;
 	background-image: url(Assets/Images/shattered.png);
@@ -30,3 +68,4 @@ h1 {
 	width: 200px;
 	height: 200px;
 }
+*/
