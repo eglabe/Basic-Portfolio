@@ -56,7 +56,7 @@ h1 {
 	font-family: "Georgia", Times, "Times New Roman", serif;
 	color:#4aaaa5;
 	border-bottom: 2px solid #cccccc;
-	padding: 0px 0px 20px 0px;
+	padding: 0px 0px 20px;
 	margin-bottom: 20px;
 }
 
@@ -64,7 +64,7 @@ h2 {
 	font-family: "Georgia", Times, "Times New Roman", serif;
 	color:#4aaaa5;
 	border-bottom: 1px solid #cccccc;
-	padding: 0px 0px 20px 0px;
+	padding: 0px 0px 20px;
 	margin-bottom: 20px;
 	font-size: 19px;
 	text-align: right;
@@ -74,10 +74,10 @@ section, aside {
 	background-color: white;
 	border: 1px solid #cccccc;
 	padding: 20px;
+	margin-bottom: 30px;
 }
 
 section {
-	margin-bottom: 30px;
 	float: left;
 	width: 650px;
 }
@@ -102,3 +102,44 @@ footer {
 	padding: 30px;
 	border-top: 7px solid #4aaaa5;
 }
+
+/*CSS for Specific Pages*/
+
+/*About Me*/
+
+#bio-image {
+	float: left;
+	margin-right: 20px;
+	width: 220px;
+}
+
+.aboutMe {
+	line-height: 1.7;
+}
+
+/*Portfolio*/
+
+/*Contact*/
+
+input[type=text] {
+	width: 100%;
+	padding: 5px;
+	margin: 5px 5px 12px;
+	color: lightgrey;
+}
+ textarea {
+ 	width: 100%;
+ 	height: 150px;
+ 	padding: 5px;
+ 	margin: 5px 5px 12px;
+ 	border: 1px solid lightgrey;
+ }
+
+ input[type=submit] {
+ 	background-color: #4aaaa5;
+ 	color: #ffffff;
+ 	font-size: 15px;
+ 	border: none;
+ 	padding: 8px 20px;
+ 	margin-left: 5px;
+ }
