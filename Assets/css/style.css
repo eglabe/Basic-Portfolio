@@ -75,7 +75,7 @@ h2 {
 	padding: 0px 0px 20px;
 	margin-bottom: 20px;
 	font-size: 19px;
-	text-align: right;
+	text-align: center;
 }
 
 section, aside {
@@ -120,6 +120,7 @@ footer {
 	float: left;
 	margin-right: 20px;
 	width: 220px;
+	border-radius: 5px;
 }
 
 .aboutMe {
@@ -158,7 +159,7 @@ input[type=text] {
 	width: 100%;
 	padding: 5px;
 	margin: 5px 5px 12px;
-	color: #cccccc;
+	color: #666666;
 }
  textarea {
  	width: 100%;
